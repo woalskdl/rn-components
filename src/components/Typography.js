@@ -20,6 +20,6 @@ export class Typography extends React.Component {
 // PropTypes 선언 >> Type 체크
 Typography.propTypes = {
   color: PropTypes.string,
-  fontSize: PropTypes.number.isRequired,
+  fontSize: PropTypes.number,
   children: PropTypes.oneOfType([PropTypes.element, PropTypes.string]).isRequired
 }
